@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Assignment3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cme-bF-cmy">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13x20= " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2N-qe-OSE">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="Sxw-kg-Sqe"/>
+                                            <constraint firstAttribute="height" constant="40" id="ufn-JC-Fsa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="31"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="260" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pSD-N9-frx">
+                                        <rect key="frame" x="0.0" y="40" width="393" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="jwq-qS-lQC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="85"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ZYx-44-m12">
+                                        <rect key="frame" x="0.0" y="140" width="393" height="619"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="GIv-nz-M4u">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="123.66666666666667"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTr-kM-Bak">
+                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="123.66666666666667"/>
+                                                        <color key="backgroundColor" name="Button"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+/-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cn-Nh-cEh">
+                                                        <rect key="frame" x="98.333333333333343" y="0.0" width="98.333333333333343" height="123.66666666666667"/>
+                                                        <color key="backgroundColor" name="Button"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exP-Jg-LG2">
+                                                        <rect key="frame" x="196.66666666666666" y="0.0" width="97.999999999999972" height="123.66666666666667"/>
+                                                        <color key="backgroundColor" name="Button"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0T-d0-Pqb">
+                                                        <rect key="frame" x="294.66666666666669" y="0.0" width="98.333333333333314" height="123.66666666666667"/>
+                                                        <color key="backgroundColor" name="Accent1"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="qTr-kM-Bak" firstAttribute="leading" secondItem="GIv-nz-M4u" secondAttribute="leading" id="0RJ-Nh-Q4c"/>
+                                                    <constraint firstAttribute="height" constant="98.329999999999998" id="Dsg-21-AfD"/>
+                                                    <constraint firstItem="qTr-kM-Bak" firstAttribute="top" secondItem="GIv-nz-M4u" secondAttribute="top" id="fyK-Td-afW"/>
+                                                    <constraint firstItem="3cn-Nh-cEh" firstAttribute="leading" secondItem="qTr-kM-Bak" secondAttribute="trailing" id="o83-UN-mmY"/>
+                                                    <constraint firstAttribute="bottom" secondItem="qTr-kM-Bak" secondAttribute="bottom" id="wa9-MK-jNm"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="lR3-nk-0Os">
+                                                <rect key="frame" x="0.0" y="123.66666666666669" width="393" height="124"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9j-ul-Yra">
+                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="124"/>
+                                                        <color key="backgroundColor" name="Button"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kkn-gw-ITb">
+                                                        <rect key="frame" x="98.333333333333343" y="0.0" width="98.333333333333343" height="124"/>
+                                                        <color key="backgroundColor" name="Button"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZc-49-fVz">
+                                                        <rect key="frame" x="196.66666666666666" y="0.0" width="97.999999999999972" height="124"/>
+                                                        <color key="backgroundColor" name="Button"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDk-CA-UNs">
+                                                        <rect key="frame" x="294.66666666666669" y="0.0" width="98.333333333333314" height="124"/>
+                                                        <color key="backgroundColor" name="Accent2"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="66l-SN-ABa">
+                                                <rect key="frame" x="0.0" y="247.66666666666666" width="393" height="123.6666666666666"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVV-fP-vuw">
+                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="123.66666666666667"/>
+                                                        <color key="backgroundColor" name="Button"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6D-Rk-QeT">
+                                                        <rect key="frame" x="98.333333333333343" y="0.0" width="98.333333333333343" height="123.66666666666667"/>
+                                                        <color key="backgroundColor" name="Button"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lp1-N5-1rz">
+                                                        <rect key="frame" x="196.66666666666666" y="0.0" width="97.999999999999972" height="123.66666666666667"/>
+                                                        <color key="backgroundColor" name="Button"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oWf-DW-kox">
+                                                        <rect key="frame" x="294.66666666666669" y="0.0" width="98.333333333333314" height="123.66666666666667"/>
+                                                        <color key="backgroundColor" name="Accent3"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8Y3-tK-XNP">
+                                                <rect key="frame" x="0.0" y="371.33333333333337" width="393" height="124"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6E-6w-npj">
+                                                        <rect key="frame" x="0.0" y="0.0" width="98.333333333333329" height="124"/>
+                                                        <color key="backgroundColor" name="Button"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wuF-ue-KH0">
+                                                        <rect key="frame" x="98.333333333333343" y="0.0" width="98.333333333333343" height="124"/>
+                                                        <color key="backgroundColor" name="Button"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMO-NY-pZq">
+                                                        <rect key="frame" x="196.66666666666666" y="0.0" width="97.999999999999972" height="124"/>
+                                                        <color key="backgroundColor" name="Button"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J12-UC-HwA">
+                                                        <rect key="frame" x="294.66666666666669" y="0.0" width="98.333333333333314" height="124"/>
+                                                        <color key="backgroundColor" name="Accent4"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="TbU-sj-gwD">
+                                                <rect key="frame" x="0.0" y="495.33333333333343" width="393" height="123.66666666666669"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEz-OP-lfc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="131" height="123.66666666666667"/>
+                                                        <color key="backgroundColor" name="Button"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="," textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdF-Bf-On4">
+                                                        <rect key="frame" x="131" y="0.0" width="131" height="123.66666666666667"/>
+                                                        <color key="backgroundColor" name="Button"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQ1-GG-ycH">
+                                                        <rect key="frame" x="262" y="0.0" width="131" height="123.66666666666667"/>
+                                                        <color key="backgroundColor" name="Accent5"/>
+                                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="56"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" name="Foreground"/>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="cme-bF-cmy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Bi0-Ii-fRw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cme-bF-cmy" secondAttribute="bottom" id="Ivt-x9-JtP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cme-bF-cmy" secondAttribute="trailing" id="L52-6t-z8h"/>
+                            <constraint firstItem="cme-bF-cmy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="azE-QA-eZL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="Accent1">
+            <color red="0.96862745098039216" green="0.59999999999999998" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Accent2">
+            <color red="0.93725490196078431" green="0.52941176470588236" blue="0.32156862745098042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Accent3">
+            <color red="0.90980392156862744" green="0.45882352941176469" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Accent4">
+            <color red="0.88235294117647056" green="0.39215686274509803" blue="0.45490196078431372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Accent5">
+            <color red="0.85882352941176465" green="0.32156862745098042" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Background">
+            <color red="0.93725490196078431" green="0.92941176470588238" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Button">
+            <color red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Foreground">
+            <color red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
